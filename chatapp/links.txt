@@ -1,0 +1,17 @@
+sendmessages.php
+http://localhost:8080/chatapp/sendmessages.php?username=1&message=ramizhasdsajdkasfkbhfhsdvkcasdfasjfas
+
+adduser.php
+http://localhost:8080/chatapp/adduser.php?uname=ramiz&pwd=123&fname=ramizasgher
+
+login.php
+http://localhost:8080/chatapp/login.php?uname=asd&pwd=asd
+
+getmessages.php
+http://localhost:8080/chatapp/getmessages.php?message_id=1
+OR
+http://localhost:8080/chatapp/getmessages.php?user_id=1
+
+
+Deletemessages.php
+http://localhost:8080/chatapp/deletemessages.php?message_id=1

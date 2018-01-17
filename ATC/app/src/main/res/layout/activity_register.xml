@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ratan.atc.register">
+
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/uname"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="19dp"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 "
+        android:ems="10"
+        android:hint="Full name"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <EditText
+        android:id="@+id/passet"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/fname"
+        android:layout_below="@+id/passet3"
+        android:ems="11"
+        android:layout_marginTop="15dip"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+
+    <EditText
+        android:id="@+id/passet3"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/uname"
+        android:layout_below="@+id/uname"
+        android:layout_marginTop="17dp"
+        android:ems="11"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+        android:ems="11"
+        android:hint="User Name"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="Signup"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="Wrong Username and/or password"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="10sp"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="125dp"
+        android:layout_height="167dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/unamelogin"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</RelativeLayout>
+
