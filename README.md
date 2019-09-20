@@ -1,2 +1,2 @@
 # ATC(Auto-Translate Chat)
-This is an android application which able to translate chat to anothe
+Auto translate chat app is a mobile application where the chat translations are generated automatically according to the selected languages. Auto translate chat is mainly used for better communication with multi-lingual purpose through most of the countries where the translation process will be generated automatically. It is an android base mobile application which allows users to make a better conversation with different languages with people from different countries. 
